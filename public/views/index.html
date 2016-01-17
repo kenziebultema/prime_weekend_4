@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <script src="vendors/angular.min.js"></script>
+    <script src="assets/scripts/client.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Angular Services Weekend Assignment</title>
+</head>
+<body ng-controller="mainController">
+<h1>i dont like bootstrap</h1>
+    <div ng-repeat="info in thing.data">
+        <p>{{info.repo.url}}</p>
+    </div>
+</body>
+</html>
