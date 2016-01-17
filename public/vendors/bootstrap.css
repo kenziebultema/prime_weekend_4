@@ -13,9 +13,14 @@ body {
   margin: 0;
   background-color: #00acb0;
 }
+.container {
+  width: 800px;
+}
 #urlTitle, #idNum {
   font-weight: bold;
+  font-size: 20px;
   background-color: #fff;
+  letter-spacing: 3px;
 }
 .url, .id {
   margin: 0 15px 5px 15px;
